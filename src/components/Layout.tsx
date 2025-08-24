@@ -19,14 +19,13 @@ export function Layout({ children }: LayoutProps) {
                }} />
           <div className="glass:block hidden absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/10 pointer-events-none" />
           
-          {/* Fixed Header */}
-          <AppHeader />
-          
           <AppSidebar />
           
           <div className="flex-1 flex flex-col overflow-hidden">
-            {/* Main content with top padding to account for fixed header */}
-            <main className="flex-1 overflow-auto p-6 space-y-6 pt-22">
+            {/* Fixed Header positioned after sidebar */}
+            <AppHeader />
+            
+            <main className="flex-1 overflow-auto p-6 space-y-6">
               {children}
             </main>
           </div>
