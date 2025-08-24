@@ -113,23 +113,23 @@
 
   .glass {
     /* Glassy Theme - Futuristic & Elegant */
-    --background: 217 33% 17%;
+    --background: 217 33% 17% / 0.3;
     --foreground: 210 40% 98%;
     
-    --card: 217 33% 17% / 0.7;
+    --card: 217 33% 17% / 0.4;
     --card-foreground: 210 40% 98%;
     
-    --popover: 217 33% 17% / 0.9;
+    --popover: 217 33% 17% / 0.95;
     --popover-foreground: 210 40% 98%;
     
     --primary: 217 91% 70%;
     --primary-foreground: 217 33% 17%;
     --primary-hover: 217 91% 75%;
     
-    --secondary: 217 33% 25% / 0.5;
+    --secondary: 217 33% 25% / 0.3;
     --secondary-foreground: 210 40% 98%;
     
-    --muted: 217 33% 25% / 0.5;
+    --muted: 217 33% 25% / 0.3;
     --muted-foreground: 217 11% 75%;
     
     --accent: 142 76% 70%;
@@ -140,18 +140,18 @@
     --destructive: 0 84% 70%;
     --destructive-foreground: 217 33% 17%;
     
-    --border: 217 33% 25% / 0.3;
-    --input: 217 33% 25% / 0.5;
+    --border: 217 33% 25% / 0.2;
+    --input: 217 33% 25% / 0.4;
     --ring: 217 91% 70%;
     
     /* Glass sidebar tokens */
-    --sidebar-background: 217 33% 15% / 0.8;
+    --sidebar-background: 217 33% 15% / 0.4;
     --sidebar-foreground: 210 40% 98%;
     --sidebar-primary: 217 91% 70%;
     --sidebar-primary-foreground: 217 33% 15%;
-    --sidebar-accent: 217 33% 25% / 0.4;
+    --sidebar-accent: 217 33% 25% / 0.3;
     --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 217 33% 25% / 0.3;
+    --sidebar-border: 217 33% 25% / 0.2;
     --sidebar-ring: 217 91% 70%;
     
     /* Glass effects */
